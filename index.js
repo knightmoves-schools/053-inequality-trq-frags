@@ -5,7 +5,8 @@ function guessNumber(guess) {
 }
 
 function strictGuessNumber(guess) {
-    if (typeof guess === "number" && guess !== 25) {
+    // Return "not it" if guess is not strictly equal to 25
+    if (guess !== 25) {
         return "not it";
     }
 }
